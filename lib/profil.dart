@@ -93,7 +93,7 @@ class profil extends StatelessWidget{
             Container(
               margin: EdgeInsets.fromLTRB(0, 20, 0, 0),
               width: 370,
-              height: 120,
+              height: 115,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(5),
                 color: Colors.white,
@@ -136,9 +136,375 @@ class profil extends StatelessWidget{
             ),
           //  Tana qism
             Container(
-              
+              margin: EdgeInsets.fromLTRB(0, 20, 0, 0),
+              width: 370,
+              height: 100,
+              color: Colors.white,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Container(
+                    margin:EdgeInsets.fromLTRB(20, 0, 0, 0),
+                    width: 50,
+                    height: 50,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(50),
+                      color: Colors.yellow,
+                    ),
+                  ),
+                  Container(
+                    child: Column(
+                      children: [
+                        Container(
+                          margin:EdgeInsets.fromLTRB(0, 30, 25, 0),
+                          child: Text('Yangiliklar',style: TextStyle(fontSize: 17),),
+                        ),
+                        Container(
+                          margin:EdgeInsets.fromLTRB(0, 0, 0, 0),
+                          child: Text('Songi yangiliklar',style: TextStyle(color: Colors.grey),),
+                        ),
+                      ],
+                    ),
+                  ),
+                  Container(
+                    margin:EdgeInsets.fromLTRB(0, 0, 0, 0),
+                    child: IconButton(onPressed: (){
+                      Navigator.push(context, MaterialPageRoute(builder: (context) => videolar()));
+                    },
+                        icon: Icon(Icons.chevron_right)),
+                  ),
+                ],
+              ),
             ),
-          ],
+            Container(
+              margin: EdgeInsets.fromLTRB(0, 0, 0, 0),
+              width: 370,
+              height: 100,
+              color: Colors.white,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Container(
+                    margin:EdgeInsets.fromLTRB(20, 0, 0, 0),
+                    width: 50,
+                    height: 50,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(50),
+                      color: Colors.red,
+                    ),
+                  ),
+                  Container(
+                    child: Column(
+                      children: [
+                        Container(
+                          margin:EdgeInsets.fromLTRB(0, 30, 0, 0),
+                          child: Text('Mening kursim',style: TextStyle(fontSize: 17),),
+                        ),
+                        Container(
+                          margin:EdgeInsets.fromLTRB(0, 0, 18, 0),
+                          child: Text('Barcha fanlar',style: TextStyle(color: Colors.grey),),
+                        ),
+                      ],
+                    ),
+                  ),
+                  Container(
+                    margin:EdgeInsets.fromLTRB(0, 0, 0, 0),
+                    child: IconButton(onPressed: (){
+                      Navigator.push(context, MaterialPageRoute(builder: (context) => videolar()));
+                    },
+                        icon: Icon(Icons.chevron_right)),
+                  ),
+                ],
+              ),
+            ),
+            Container(
+              margin: EdgeInsets.fromLTRB(0, 0, 0, 0),
+              width: 370,
+              height: 100,
+              color: Colors.white,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Container(
+                    margin:EdgeInsets.fromLTRB(25, 0, 0, 0),
+                    width: 50,
+                    height: 50,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(50),
+                      color: Colors.green,
+                    ),
+                  ),
+                  Container(
+                    child: Column(
+                      children: [
+                        Container(
+                          margin:EdgeInsets.fromLTRB(0, 30, 0, 0),
+                          child: Text("To'lov",style: TextStyle(fontSize: 17),),
+                        ),
+                        Container(
+                          margin:EdgeInsets.fromLTRB(0, 0, 0, 0),
+                          child: Text("To'lovni amalga oshirish",style: TextStyle(color: Colors.grey),),
+                        ),
+                      ],
+                    ),
+                  ),
+                  Container(
+                    margin:EdgeInsets.fromLTRB(0, 0, 0, 0),
+                    child: IconButton(onPressed: (){
+                      Navigator.push(context, MaterialPageRoute(builder: (context) => videolar()));
+                    },
+                        icon: Icon(Icons.chevron_right)),
+                  ),
+                ],
+              ),
+            ),
+            Container(
+              margin: EdgeInsets.fromLTRB(0, 0, 0, 0),
+              width: 370,
+              height: 100,
+              color: Colors.white,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Container(
+                    margin:EdgeInsets.fromLTRB(20, 0, 0, 0),
+                    width: 50,
+                    height: 50,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(50),
+                      color: Colors.blue,
+                    ),
+                  ),
+                  Container(
+                    child: Column(
+                      children: [
+                        Container(
+                          margin:EdgeInsets.fromLTRB(0, 30, 25, 0),
+                          child: Text('Eslatmalar',style: TextStyle(fontSize: 17),),
+                        ),
+                        Container(
+                          margin:EdgeInsets.fromLTRB(0, 0, 0, 0),
+                          child: Text('Eslatmalarni sozlash',style: TextStyle(color: Colors.grey),),
+                        ),
+                      ],
+                    ),
+                  ),
+                  Container(
+                    margin:EdgeInsets.fromLTRB(0, 0, 0, 0),
+                    child: IconButton(onPressed: (){
+                      Navigator.push(context, MaterialPageRoute(builder: (context) => videolar()));
+                    },
+                        icon: Icon(Icons.arrow_circle_right_outlined)),
+                  ),
+                ],
+              ),
+            ),
+            Container(
+              margin: EdgeInsets.fromLTRB(0, 0, 0, 0),
+              width: 370,
+              height: 100,
+              color: Colors.white,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Container(
+                    margin:EdgeInsets.fromLTRB(20, 0, 0, 0),
+                    width: 50,
+                    height: 50,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(50),
+                      color: Colors.red,
+                    ),
+                  ),
+                  Container(
+                    child: Column(
+                      children: [
+                        Container(
+                          margin:EdgeInsets.fromLTRB(0, 30, 0, 0),
+                          child: Text('Mening kursim',style: TextStyle(fontSize: 17),),
+                        ),
+                        Container(
+                          margin:EdgeInsets.fromLTRB(0, 0, 18, 0),
+                          child: Text('Barcha fanlar',style: TextStyle(color: Colors.grey),),
+                        ),
+                      ],
+                    ),
+                  ),
+                  Container(
+                    margin:EdgeInsets.fromLTRB(0, 0, 0, 0),
+                    child: IconButton(onPressed: (){
+                      Navigator.push(context, MaterialPageRoute(builder: (context) => videolar()));
+                    },
+                        icon: Icon(Icons.chevron_right)),
+                  ),
+                ],
+              ),
+            ),
+            Container(
+              margin: EdgeInsets.fromLTRB(0, 20, 0, 0),
+              width: 370,
+              height: 100,
+              color: Colors.white,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Container(
+                    margin:EdgeInsets.fromLTRB(20, 0, 0, 0),
+                    width: 50,
+                    height: 50,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(50),
+                      color: Colors.yellow,
+                    ),
+                  ),
+                  Container(
+                    child: Column(
+                      children: [
+                        Container(
+                          margin:EdgeInsets.fromLTRB(0, 30, 25, 0),
+                          child: Text('Yangiliklar',style: TextStyle(fontSize: 17),),
+                        ),
+                        Container(
+                          margin:EdgeInsets.fromLTRB(0, 0, 0, 0),
+                          child: Text('Songi yangiliklar',style: TextStyle(color: Colors.grey),),
+                        ),
+                      ],
+                    ),
+                  ),
+                  Container(
+                    margin:EdgeInsets.fromLTRB(0, 0, 0, 0),
+                    child: IconButton(onPressed: (){
+                      Navigator.push(context, MaterialPageRoute(builder: (context) => videolar()));
+                    },
+                        icon: Icon(Icons.chevron_right)),
+                  ),
+                ],
+              ),
+            ),
+            Container(
+              margin: EdgeInsets.fromLTRB(0, 0, 0, 0),
+              width: 370,
+              height: 100,
+              color: Colors.white,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Container(
+                    margin:EdgeInsets.fromLTRB(20, 0, 0, 0),
+                    width: 50,
+                    height: 50,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(50),
+                      color: Colors.red,
+                    ),
+                  ),
+                  Container(
+                    child: Column(
+                      children: [
+                        Container(
+                          margin:EdgeInsets.fromLTRB(0, 30, 0, 0),
+                          child: Text('Mening kursim',style: TextStyle(fontSize: 17),),
+                        ),
+                        Container(
+                          margin:EdgeInsets.fromLTRB(0, 0, 18, 0),
+                          child: Text('Barcha fanlar',style: TextStyle(color: Colors.grey),),
+                        ),
+                      ],
+                    ),
+                  ),
+                  Container(
+                    margin:EdgeInsets.fromLTRB(0, 0, 0, 0),
+                    child: IconButton(onPressed: (){
+                      Navigator.push(context, MaterialPageRoute(builder: (context) => videolar()));
+                    },
+                        icon: Icon(Icons.chevron_right)),
+                  ),
+                ],
+              ),
+            ),
+            Container(
+              margin: EdgeInsets.fromLTRB(0, 20, 0, 0),
+              width: 370,
+              height: 100,
+              color: Colors.white,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Container(
+                    margin:EdgeInsets.fromLTRB(20, 0, 0, 0),
+                    width: 50,
+                    height: 50,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(50),
+                      color: Colors.yellow,
+                    ),
+                  ),
+                  Container(
+                    child: Column(
+                      children: [
+                        Container(
+                          margin:EdgeInsets.fromLTRB(0, 30, 25, 0),
+                          child: Text('Yangiliklar',style: TextStyle(fontSize: 17),),
+                        ),
+                        Container(
+                          margin:EdgeInsets.fromLTRB(0, 0, 0, 0),
+                          child: Text('Songi yangiliklar',style: TextStyle(color: Colors.grey),),
+                        ),
+                      ],
+                    ),
+                  ),
+                  Container(
+                    margin:EdgeInsets.fromLTRB(0, 0, 0, 0),
+                    child: IconButton(onPressed: (){
+                      Navigator.push(context, MaterialPageRoute(builder: (context) => videolar()));
+                    },
+                        icon: Icon(Icons.chevron_right)),
+                  ),
+                ],
+              ),
+            ),
+            Container(
+              margin: EdgeInsets.fromLTRB(0, 0, 0, 0),
+              width: 370,
+              height: 100,
+              color: Colors.white,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Container(
+                    margin:EdgeInsets.fromLTRB(20, 0, 0, 0),
+                    width: 50,
+                    height: 50,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(50),
+                      color: Colors.red,
+                    ),
+                  ),
+                  Container(
+                    child: Column(
+                      children: [
+                        Container(
+                          margin:EdgeInsets.fromLTRB(0, 30, 0, 0),
+                          child: Text('Mening kursim',style: TextStyle(fontSize: 17),),
+                        ),
+                        Container(
+                          margin:EdgeInsets.fromLTRB(0, 0, 18, 0),
+                          child: Text('Barcha fanlar',style: TextStyle(color: Colors.grey),),
+                        ),
+                      ],
+                    ),
+                  ),
+                  Container(
+                    margin:EdgeInsets.fromLTRB(0, 0, 0, 0),
+                    child: IconButton(onPressed: (){
+                      Navigator.push(context, MaterialPageRoute(builder: (context) => videolar()));
+                    },
+                        icon: Icon(Icons.chevron_right)),
+                  ),
+                ],
+              ),
+            ),
+        ],
         ),
       ),
     ),
